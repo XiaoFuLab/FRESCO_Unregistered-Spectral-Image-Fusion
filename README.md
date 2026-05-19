@@ -1,4 +1,4 @@
-**FRESCO**: **F**actorized **R**epresentation for **E**nhanced **S**uper-resolution using latent **C**omponent-adversarial **O**ptimization
+## **FRESCO**: **F**actorized **R**epresentation for **E**nhanced **S**uper-resolution using latent **C**omponent-adversarial **O**ptimization
 
 <p align="center">
   <img src="assets/un_reg_objective.png" width="850">
@@ -6,15 +6,7 @@
 
 This repository corresponds to the paper:
 
-<div style="border-left: 6px solid #d0d7de; padding-left: 18px; margin: 20px 0;">
-
-<strong>Unregistered Spectral Image Fusion: Unmixing, Adversarial Learning, and Recoverability</strong>  
-Jiahui Song, Sagar Shrestha, Xiao Fu  
-
-<em>TODO: Venue / arXiv / Under Review</em>
-
-</div>
-
+> **Unregistered Spectral Image Fusion: Unmixing, Adversarial Learning, and Recoverability** Jiahui Song, Sagar Shrestha, Xiao Fu  
 
 ## Overview
 

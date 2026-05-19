@@ -8,6 +8,11 @@ This repository corresponds to the paper:
 
 > **Unregistered Spectral Image Fusion: Unmixing, Adversarial Learning, and Recoverability** Jiahui Song, Sagar Shrestha, Xiao Fu  
 
+<p>
+  <a href="https://arxiv.org/abs/2603.21510">
+    <b>[ arXiv ]</b>
+  </a>
+</p>
 ## Overview
 
 Hyperspectral images provide high spectral resolution but low spatial resolution, while multispectral images provide higher spatial resolution but fewer spectral bands. Existing HSI-MSI fusion methods usually assume spatial co-registration, which can be difficult to guarantee in practice.

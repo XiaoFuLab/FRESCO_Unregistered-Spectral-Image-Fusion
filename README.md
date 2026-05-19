@@ -1,5 +1,9 @@
 # FRESCO: Unregistered Spectral Image Fusion
 
+<p align="center">
+  <img src="assets/un_reg_objective.png" width="850">
+</p>
+
 This repository corresponds to the paper:
 
 **Unregistered Spectral Image Fusion: Unmixing, Adversarial Learning, and Recoverability**  

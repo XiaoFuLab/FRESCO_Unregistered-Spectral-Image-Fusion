@@ -6,20 +6,12 @@
 
 This repository corresponds to the paper:
 
-<div align="center">
+<div style="border-left: 6px solid #d0d7de; padding-left: 18px; margin: 20px 0;">
 
-<table>
-<tr>
-<td align="center">
+<strong>Unregistered Spectral Image Fusion: Unmixing, Adversarial Learning, and Recoverability</strong>  
+Jiahui Song, Sagar Shrestha, Xiao Fu  
 
-### Unregistered Spectral Image Fusion:  
-### Unmixing, Adversarial Learning, and Recoverability
-
-**Jiahui Song, Sagar Shrestha, and Xiao Fu**
-
-</td>
-</tr>
-</table>
+<em>TODO: Venue / arXiv / Under Review</em>
 
 </div>
 

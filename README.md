@@ -22,26 +22,21 @@ This repository corresponds to the paper:
   <img src="assets/MSR_HSR.png" width="850">
 </p>
 
-1. **MSR stage**: Coupled spectral unmixing is used to recover the super-resolved MSI-side spectral image.
+1. **MSR stage**: Coupled spectral unmixing is used to recover the M-SRI.
 
+<p align="center">
+  <img src="assets/MSR.png" width="850">
+</p>
 
-$$
-\begin{aligned}
-\min_{\{S_r^{(H)}, c_r^{(H)}, S_r^{(M)}\}_{r=1}^{R}}
-&\left\|Y^{(H)} - \sum_{r=1}^{R} S_r^{(H)} \circ c_r^{(H)} \right\|_F^2
-+
-\left\|Y^{(M)} - \sum_{r=1}^{R} S_r^{(M)} \circ \left(P^{(M)} c_r^{(H)}\right) \right\|_F^2 \\
-\text{s.t.}\quad
-&\operatorname{rank}\left(S_r^{(M)}\right) \leq L_r^{(M)}, \quad
-\operatorname{rank}\left(S_r^{(H)}\right) \leq L_r^{(H)}, \quad \forall r \in [R], \\
-&\sum_{r=1}^{R} S_r^{(M)} = \mathbf{1}\mathbf{1}^{\top}, \quad
-\sum_{r=1}^{R} S_r^{(H)} = \mathbf{1}\mathbf{1}^{\top}, \\
-&S_r^{(M)}, S_r^{(H)}, c_r^{(H)} \geq 0, \quad \forall r \in [R].
-\end{aligned}
-$$
+2. **HSR stage**: Latent-space adversarial learning is used to recover the H-SRI by matching abundance patch distributions.
 
+<p align="center">
+  <img src="assets/distribution_matching.png" width="850">
+</p>
 
-2. **HSR stage**: Latent-space adversarial learning is used to recover the super-resolved HSI-side spectral image by matching abundance patch distributions.
+<p align="center">
+  <img src="assets/HSR_recover_f.png" width="850">
+</p>
 
-The method does not require paired training data or spatial co-registration.
+The method does not require **paired training data** or **spatial co-registration**.
 

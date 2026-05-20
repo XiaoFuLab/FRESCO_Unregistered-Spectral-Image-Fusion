@@ -25,7 +25,7 @@ This repository corresponds to the paper:
 1. **MSR stage**: Coupled spectral unmixing is used to recover the M-SRI.
 
 <p align="center">
-  <img src="assets/MSR.png" width="850">
+  <img src="assets/MSR.png" width="750">
 </p>
 
 2. **HSR stage**: Latent-space adversarial learning is used to recover the H-SRI by matching abundance patch distributions.

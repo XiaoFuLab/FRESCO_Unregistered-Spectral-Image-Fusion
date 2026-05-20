@@ -16,9 +16,11 @@ This repository corresponds to the paper:
 
 ## Overview
 
-Hyperspectral images provide high spectral resolution but low spatial resolution, while multispectral images provide higher spatial resolution but fewer spectral bands. Existing HSI-MSI fusion methods usually assume spatial co-registration, which can be difficult to guarantee in practice.
+**FRESCO** addresses the unregistered hyperspectral and multispectral image fusion problem using a two-stage framework:
 
-**FRESCO** (**F**actorized **R**epresentation for **E**nhanced **S**uper-resolution using latent **C**omponent-adversarial **O**ptimization) addresses this unregistered setting using a two-stage framework:
+<p align="center">
+  <img src="assets/MSR_HSR.png" width="850">
+</p>
 
 1. **MSR stage**: Coupled spectral unmixing is used to recover the super-resolved MSI-side spectral image.
 

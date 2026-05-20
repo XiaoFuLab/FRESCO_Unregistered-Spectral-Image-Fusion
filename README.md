@@ -42,11 +42,19 @@ The method does not require **paired training data** or **spatial co-registratio
 
 **MSR Results**
 
-
+<p align="center">
+  <img src="assets/pavia_MSR.png" width="850">
+</p>
 
 **HSR Results**
 
-
+<p align="center">
+  <img src="assets/pavia_HSR.png" width="850">
+</p>
 
 
 ## Real Applications
+
+<p align="center">
+  <img src="assets/real_application.png" width="850">
+</p>

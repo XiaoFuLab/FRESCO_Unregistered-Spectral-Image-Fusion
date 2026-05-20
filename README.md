@@ -34,9 +34,6 @@ This repository corresponds to the paper:
   <img src="assets/distribution_matching.png" width="850">
 </p>
 
-<p align="center">
-  <img src="assets/HSR_recover_f.png" width="850">
-</p>
 
 The method does not require **paired training data** or **spatial co-registration**.
 

@@ -1,4 +1,4 @@
-dataroot=data/terrain_nearest.mat
+dataroot=data/terrain_clean_nearest.mat
 resultroot=result/terrain_nearest
 
 

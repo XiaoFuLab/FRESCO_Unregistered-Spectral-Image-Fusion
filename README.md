@@ -38,6 +38,16 @@ This repository corresponds to the paper:
 The method does not require **paired training data** or **spatial co-registration**.
 
 
+## Installation
+
+This algorithm was implemented with **Python 3.12.8**. To set up the environment, run:
+
+```bash
+conda create -n fresco python=3.12.8
+conda activate fresco
+pip install -r requirements.txt
+```
+
 ## Semi-real Experiments
 
 **MSR Results**

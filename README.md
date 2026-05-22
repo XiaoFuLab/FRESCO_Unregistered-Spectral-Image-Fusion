@@ -22,13 +22,13 @@ This repository corresponds to the paper:
   <img src="assets/MSR_HSR.png" width="850">
 </p>
 
-1. **MSR stage**: Coupled spectral unmixing is used to recover the M-SRI.
+### MSR stage: Coupled spectral unmixing to recover the M-SRI.
 
 <p align="center">
   <img src="assets/MSR.png" width="750">
 </p>
 
-2. **HSR stage**: Latent-space adversarial learning is used to recover the H-SRI by matching abundance patch distributions.
+### HSR stage: Latent-space adversarial learning to recover the H-SRI by matching abundance patch distributions.
 
 <p align="center">
   <img src="assets/distribution_matching.png" width="850">
@@ -86,3 +86,16 @@ bash scripts/pavia_gaussian.sh
 <p align="center">
   <img src="assets/real_application.png" width="850">
 </p>
+
+
+## Citation
+If you use this work, please cite:
+
+```
+@article{song2026unregistered,
+  title={Unregistered spectral image fusion: Unmixing, adversarial learning, and recoverability},
+  author={Song, Jiahui and Shrestha, Sagar and Fu, Xiao},
+  journal={arXiv preprint arXiv:2603.21510},
+  year={2026}
+}
+```

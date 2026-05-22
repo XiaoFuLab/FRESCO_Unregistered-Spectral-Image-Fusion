@@ -23,14 +23,14 @@ This repository corresponds to the paper:
 </p>
 
 ### MSR stage 
->>Coupled spectral unmixing to recover the M-SRI.
+>Coupled spectral unmixing to recover the M-SRI.
 
 <p align="center">
   <img src="assets/MSR.png" width="750">
 </p>
 
 ### HSR stage 
->>Latent-space adversarial learning to recover the H-SRI by matching abundance patch distributions.
+>Latent-space adversarial learning to recover the H-SRI by matching abundance patch distributions.
 
 <p align="center">
   <img src="assets/distribution_matching.png" width="850">

@@ -68,13 +68,13 @@ bash scripts/pavia_gaussian.sh
 
 ## Semi-real Experiments
 
-**MSR Results**
+### MSR Results
 
 <p align="center">
   <img src="assets/pavia_MSR.png" width="850">
 </p>
 
-**HSR Results**
+### HSR Results
 
 <p align="center">
   <img src="assets/pavia_HSR.png" width="850">

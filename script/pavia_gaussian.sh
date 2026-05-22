@@ -1,5 +1,5 @@
 dataroot=data/pavia_clean_gaussian.mat
-resultroot=result/clean_version/clean_pavia_gaussian
+resultroot=result/pavia_gaussian
 
 
 python code/Main_two_stage.py\

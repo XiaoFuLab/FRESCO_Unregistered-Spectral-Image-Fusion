@@ -38,14 +38,32 @@ This repository corresponds to the paper:
 The method does not require **paired training data** or **spatial co-registration**.
 
 
-## Installation
+## Reproduce the Experiment
 
-This algorithm was implemented with **Python 3.12.8**. To set up the environment, run:
+### 1. Installation
+
+The algorithm was implemented with **Python 3.12.8**. Please install the dependencies as follows:
 
 ```bash
 conda create -n fresco python=3.12.8
 conda activate fresco
 pip install -r requirements.txt
+```
+
+### 2. Data Preparation
+
+(1) Download the dataset from the link: [DatasetLink].
+
+(2) After downloading, unzip the dataset and place it under the `data/` folder.
+
+
+### 3. Run the Code
+
+Activate the environment and run the corresponding experiment script. For example, to reproduce the experiment on the **Pavia University** dataset with **Gaussian-kernel downsampling**, run:
+
+```bash
+conda activate fresco
+bash scripts/pavia_gaussian.sh
 ```
 
 ## Semi-real Experiments
